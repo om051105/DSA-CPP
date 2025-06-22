@@ -14,4 +14,4 @@ int main() {
     std::cout << "The hypotenuse is: " << hypotenuse << std::endl;
 
     return 0;
-}
+}   
