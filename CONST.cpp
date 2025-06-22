@@ -1,9 +1,12 @@
 #include <iostream>
 int main() {
-    double PI = 3.14;
+    const double PI = 3.14;
+    double radius;
     
-    double radius = 10 ;
-    double cercumference = 2* 3.14 * radius;
-    std :: cout<<cercumference <<"cm";
+    std::cout << "Enter radius: ";
+    std::cin >> radius;
+
+    double circumference = 2 * PI * radius;
+    std::cout << "Circumference: " << circumference << " cm";
     return 0;
 }
